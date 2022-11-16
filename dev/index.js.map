@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/main.js"],"sourcesContent":["\"use strict\";\nconsole.log('hello!');\n//# sourceMappingURL=main.js.map"],"names":["console","log"],"mappings":";;;;;;CACAA,OAAO,CAACC,GAAG,CAAC,QAAQ,CAAC;;;;;;"}
