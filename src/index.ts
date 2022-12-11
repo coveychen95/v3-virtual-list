@@ -1,6 +1,5 @@
 import { defineComponent } from 'vue'
-import Virtual from './virtual'
-import { virtualProps } from './prop'
+import { virtualProps } from './props/virtual'
 import { Direction } from './enum'
 
 const VirtualList = defineComponent({
@@ -13,3 +12,5 @@ const VirtualList = defineComponent({
     return null;
   }
 })
+
+export default VirtualList

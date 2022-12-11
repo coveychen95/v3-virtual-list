@@ -1,16 +1,16 @@
-import { Direction } from './enum'
+import { Direction } from '../enum'
 export const virtualProps = {
   dataKey: {
     type: String,
     required: true
   },
-  dataSource: {
-    type: Array as PropType<Recordable[]>,
-    default: null
+  dataSources: {
+    type: Array,
+    required: true,
   },
   keeps: {
     type: Number,
-    required: true
+    default: 20,
   },
   direction: {
     type: String as PropType<Direction>,
