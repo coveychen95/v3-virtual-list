@@ -1,4 +1,4 @@
-import { defineComponent } from 'vue'
+import { defineComponent, h } from 'vue'
 import { virtualProps } from './props/virtual'
 import { Direction } from './enum'
 
@@ -9,7 +9,17 @@ const VirtualList = defineComponent({
     const direction = props.direction
   },
   render() {
-    return null;
+    const { header, item, footer } = this.$slots
+    return h('div', {
+    }, [
+      h('slot', {
+        name: `header`
+      }),
+      h('div', 'VirtualList'),
+      h('slot', {
+        name: `footer`
+      })
+    ]);
   }
 })
 
