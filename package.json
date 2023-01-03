@@ -24,6 +24,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.2",
     "@babel/preset-env": "^7.20.2",
+    "@faker-js/faker": "^7.6.0",
     "@rollup/plugin-babel": "^6.0.2",
     "@rollup/plugin-json": "^5.0.1",
     "rollup": "^3.3.0",

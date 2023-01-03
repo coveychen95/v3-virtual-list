@@ -3,6 +3,7 @@ lockfileVersion: 5.3
 specifiers:
   '@babel/core': ^7.20.2
   '@babel/preset-env': ^7.20.2
+  '@faker-js/faker': ^7.6.0
   '@rollup/plugin-babel': ^6.0.2
   '@rollup/plugin-json': ^5.0.1
   '@rollup/plugin-typescript': ^9.0.2
@@ -19,6 +20,7 @@ dependencies:
 devDependencies:
   '@babel/core': registry.npmmirror.com/@babel/core/7.20.2
   '@babel/preset-env': registry.npmmirror.com/@babel/preset-env/7.20.2_@babel+core@7.20.2
+  '@faker-js/faker': 7.6.0
   '@rollup/plugin-babel': 6.0.2_@babel+core@7.20.2+rollup@3.3.0
   '@rollup/plugin-json': 5.0.1_rollup@3.3.0
   rollup: 3.3.0
@@ -60,6 +62,11 @@ packages:
       '@babel/helper-string-parser': 7.19.4
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
+    dev: true
+
+  /@faker-js/faker/7.6.0:
+    resolution: {integrity: sha512-XK6BTq1NDMo9Xqw/YkYyGjSsg44fbNwYRx7QK2CuoQgyy+f1rrTDHoExVM5PsyXCtfl2vs2vVJ0MN0yN6LppRw==}
+    engines: {node: '>=14.0.0', npm: '>=6.0.0'}
     dev: true
 
   /@rollup/plugin-babel/6.0.2_@babel+core@7.20.2+rollup@3.3.0:
