@@ -7,9 +7,9 @@
 
 <script setup lang="ts">
 import { reactive } from 'vue';
-import Item from './components/Item.vue'
-import Placeholder from './components/Placeholder.vue'
-import { fetchData } from './mock'
+import Item from './Item.vue'
+import Placeholder from './Placeholder.vue'
+import { fetchData } from '../../../src/mock'
 
 const PLACEHOLDER_COUNT = 5
 const BUFFER_SIZE = 3
